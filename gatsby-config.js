@@ -25,5 +25,16 @@ module.exports = {
         // }
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `lato`,
+          'maven pro\:300, 400, 500, 700, 900',
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
   ],
 };

@@ -12,6 +12,8 @@ function Layout({ children }) {
 
 const Styles = {
     container: {
+        display: 'flex',
+        flexDirection: 'column',
         backgroundColor: colors.primary,
         height: '100vh',
         width: '100vw'

@@ -1,4 +1,62 @@
+/* Utilities */
 .border {
     border: 2px solid black;
 }
 
+
+
+/* Nav */
+.nav li{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    /* border-bottom: 3px solid white; */
+    color: #974EC3;
+}
+
+.donateButton {
+    height: 35px;
+    width: 105px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 15px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+
+.donateButton:hover {
+    background-color: rgb(158, 224, 250);
+    cursor: pointer;
+    
+}
+
+
+
+
+/* CTA */
+
+.ctaButton {
+    height: 55px;
+    width: 210px;
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: none;
+    text-transform: capitalize;
+    font-family: 'Maven Pro', Courier, monospace;
+    font-weight: bold;
+}
+
+.ctaButton:hover {
+    background-color: azure;
+    cursor: pointer;
+}
